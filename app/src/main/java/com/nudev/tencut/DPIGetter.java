@@ -1,4 +1,4 @@
-package com.idoideas.xoutof10;
+package com.nudev.tencut;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,7 +10,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 
 import static android.content.Context.WINDOW_SERVICE;
-import static com.idoideas.xoutof10.OverlayService.windowManager;
+import static com.nudev.tencut.OverlayService.windowManager;
 
 /**
  * Created by Shayevitz on 23/09/2017.

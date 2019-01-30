@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">XOutOf10</string>
+    <string name="app_name">TenCut</string>
     <string name="banner_home_footer"></string>
     <string name="interstitial_full_screen"></string>
     <string name="test_device_id"></string>

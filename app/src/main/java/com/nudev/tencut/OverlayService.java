@@ -1,4 +1,4 @@
-package com.idoideas.xoutof10;
+ package com.nudev.tencut;
 
 import android.app.Service;
 import android.content.Context;
@@ -25,7 +25,7 @@ public class OverlayService extends Service {
 
     static WindowManager windowManager;
     static View view;
-    final double wParam = 2;
+    final double wParam = 0.24;
     final double hParam = 0.24;
 
     @Override
@@ -44,8 +44,9 @@ public class OverlayService extends Service {
         }
         view = View.inflate(getApplicationContext(), R.layout.bump, null);
         WindowManager.LayoutParams params = new WindowManager.LayoutParams(
-                (int)(wParam*DPIGetter.getYDPI()),
-                (int)(hParam*DPIGetter.getXDPI()),
+                // We need some padding so here is proper scaling
+                (int)(wParam*DPIGetter.getYDPI() * 1.5),
+                (int)(hParam*DPIGetter.getXDPI() * 1.5),
                 // Allows the view to be on top of the StatusBar
                  overlayType,
                 // Keeps the button presses from going to the background window
@@ -57,7 +58,7 @@ public class OverlayService extends Service {
                         WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                 PixelFormat.TRANSLUCENT);
 
-        params.gravity =  Gravity.TOP| Gravity.CENTER;
+        params.gravity =  Gravity.TOP| Gravity.LEFT;
         windowManager.addView(view , params);
     }
 
@@ -68,17 +69,23 @@ public class OverlayService extends Service {
         } else {
             overlayType = WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY;
         }
-        view = View.inflate(getApplicationContext(), R.layout.bump_l, null);
+        view = View.inflate(getApplicationContext(), R.layout.bump, null);
         WindowManager.LayoutParams params = new WindowManager.LayoutParams(
-                (int)(hParam*DPIGetter.getYDPI()),
-                (int)(wParam*DPIGetter.getXDPI()),
+                // We need some padding so here is proper scaling
+                (int)(wParam*DPIGetter.getYDPI() * 1.5),
+                (int)(hParam*DPIGetter.getXDPI() * 1.5),
                 // Allows the view to be on top of the StatusBar
                 overlayType,
                 // Keeps the button presses from going to the background window
-                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
+                        // Enables the notification to recieve touch events
+                        WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL |
+
+                        // Draws over status bar
+                        WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                 PixelFormat.TRANSLUCENT);
 
-        params.gravity =  Gravity.START;
+        params.gravity =  Gravity.TOP| Gravity.LEFT;
         windowManager.addView(view , params);
     }
 
