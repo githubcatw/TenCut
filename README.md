@@ -1,9 +1,9 @@
 # TenCuts
-(=) Just a simulator of the A8s cutout.
+This is a simulator of the Galaxy A8s (and rumored S10) camera hole.
 
 ## Download
 
-You can [download the latest APK right here](https://github.com/githubcatw/TenCut/blob/master/app-release.apk?raw=true)
+You can [download the latest APK right here](https://github.com/githubcatw/TenCut/blob/master/app-release.apk?raw=true).
 
 **Now supports all Android devices, all the way back to Ice Cream Sandwich 4.0!**
 
@@ -29,4 +29,4 @@ Tested on Galaxy S8 (2017).
 ## Contact
 
 * Reddit: [/u/th3userscene](https://www.reddit.com/user/th3userscene)
-* Twitter: [@EmailNarek](twitter.com/EmailNarek)
+* Twitter: [@EmailNarek](https://www.twitter.com/EmailNarek)
