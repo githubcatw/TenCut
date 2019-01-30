@@ -21,7 +21,7 @@ You can [download the latest APK right here](https://github.com/githubcatw/TenCu
 
 ## Screenshots
 
-Tested on Galaxy S8, 2017.
+Tested on Galaxy S8 (2017).
 
 ![Portait Screenshot](https://i.imgur.com/1PVANAf.jpg)
 ![Landscape Screenshot](https://i.imgur.com/GtZ7heO.jpg)
