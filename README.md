@@ -1,4 +1,4 @@
-# TenCuts
+# TenCut
 This is a simulator of the Galaxy A8s (and rumored S10) camera hole.
 
 If you didn't read the small text on the bottom of the repo name, this is a fork of [XOutOf10](https://github.com/idoideas/XOutOf10).
