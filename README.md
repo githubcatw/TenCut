@@ -3,7 +3,7 @@ This is a simulator of the Galaxy A8s (and rumored S10) camera hole.
 
 ## Download
 
-You can [download the latest APK right here](https://github.com/githubcatw/TenCut/blob/master/app-release.apk?raw=true).
+You can [download the latest APK right here](https://github.com/githubcatw/TenCut/blob/master/tencut.apk?raw=true).
 
 **Now supports all Android devices, all the way back to Ice Cream Sandwich 4.0!**
 
