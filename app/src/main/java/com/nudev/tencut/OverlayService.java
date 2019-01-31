@@ -85,7 +85,7 @@ public class OverlayService extends Service {
                         WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                 PixelFormat.TRANSLUCENT);
 
-        params.gravity =  Gravity.TOP| Gravity.LEFT;
+        params.gravity =  Gravity.BOTTOM| Gravity.LEFT;
         windowManager.addView(view , params);
     }
 
