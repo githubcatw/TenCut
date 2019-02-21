@@ -22,7 +22,7 @@
         android:layout_marginLeft="39dp"
         android:layout_marginTop="250dp"
         android:layout_marginEnd="37dp"
-        android:text="Ever wanted to feel what it's like to have a Galaxy A8s,\nBut you couldn't get your hands on one?\n Here's your chance to try it."
+        android:text="Ever wanted to feel what it's like to have a Galaxy S10,\nBut you don't have $1000?\nHere's your chance to try it."
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

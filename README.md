@@ -1,7 +1,15 @@
 # TenCut
-This is a simulator of the Galaxy A8s (and rumored S10) camera hole.
+You have probably seen Unpacked 2019, where they unveiled the Galaxy S10.
+
+Well, you might've wanted to try it out. 
+
+But, you couldn't go to the event and don't have $1000 to pre-order it.
+
+If you wished to try it out on your existing phone now, **then TenCut is for you!**
 
 If you didn't read the small text on the bottom of the repo name, this is a fork of [XOutOf10](https://github.com/idoideas/XOutOf10).
+
+This program simulates the camera hole of the S10e and S10.
 
 ## Download
 

@@ -58,7 +58,7 @@ public class OverlayService extends Service {
                         WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                 PixelFormat.TRANSLUCENT);
 
-        params.gravity =  Gravity.TOP| Gravity.LEFT;
+        params.gravity =  Gravity.TOP| Gravity.RIGHT;
         windowManager.addView(view , params);
     }
 
@@ -78,14 +78,14 @@ public class OverlayService extends Service {
                 overlayType,
                 // Keeps the button presses from going to the background window
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
-                        // Enables the notification to recieve touch events
+                        // Enables the notification to receive touch events
                         WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL |
 
                         // Draws over status bar
                         WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                 PixelFormat.TRANSLUCENT);
 
-        params.gravity =  Gravity.BOTTOM| Gravity.LEFT;
+        params.gravity =  Gravity.TOP| Gravity.LEFT;
         windowManager.addView(view , params);
     }
 

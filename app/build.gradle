@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.0"
+    buildToolsVersion "26.0.3"
     defaultConfig {
         applicationId "com.idoideas.xoutof10"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 9
-        versionName "1.0.1"
+        versionCode 3
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
