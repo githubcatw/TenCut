@@ -1,7 +1,7 @@
 # TenCut
-You saw Unpacked 2019. You probably heard about of Samsung's new Galaxy S10.
+You saw Unpacked 2019. You probably heard of Samsung's new Galaxy S10.
 
-You probably noticed the large camera hole on the S10 (and the even larger one on the S10+).p
+You probably noticed the large camera hole on the S10 (and the even larger one on the S10+).
 
 Your friends who got the S10 probably said it's not that noticeable, and that you haven't tried it yourself.
 
