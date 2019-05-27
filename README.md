@@ -33,7 +33,7 @@ Supports all Android versions, all the way back to 4.0 (Ice Cream Sandwich).
 
 ## Screenshots
 
-Tested on Galaxy S8.
+Tested on Galaxy S8. **Screenshots are outdated and show the A8s simulation.**
 
 ![Portait Screenshot](https://i.imgur.com/1PVANAf.jpg)
 ![Landscape Screenshot](https://i.imgur.com/GtZ7heO.jpg)
