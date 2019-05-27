@@ -1,4 +1,6 @@
 # TenCut
+**WARNING: This app simulates the S10/S10e hole-punch display. Earlier versions simulated A8s, and most of the app needs a rewrite to add S10+ hole simulation!**
+
 You saw Unpacked 2019. You probably heard of Samsung's new Galaxy S10.
 
 You probably noticed the large camera hole on the S10 (and the even larger one on the S10+).
