@@ -21,7 +21,7 @@ Supports all Android versions, all the way back to 4.0 (Ice Cream Sandwich).
 
 **Android 6.0+ Users**: In your first run, please make sure you permit drawing over apps.
 
-**Android 8.0 (Oreo) users:** Please note that the notch will be hidden when you expand your status bar. That occurs due to API limitations set by Google.
+**Android 8.0 (Oreo) users:** Please note that the hole will be hidden when you expand your status bar. That occurs due to API limitations set by Google.
 
 ## How to enable
 
